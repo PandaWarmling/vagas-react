@@ -1,30 +1,31 @@
-const vagasList = [
+const vagalist = [
     {
-        id:1,
-        empresa: "Tech solutions",
-        cargo: "Desenvolvedor Front-end",
-        salario: "R$ 5.000,00",
+        id: 1,
+        empresa:"Tec Solutions",
+        cargo: "Front-end Developer",
+        salario: "R$ 5.000,00 - R$ 7.000,00",
+        modelo: "Remoto",
+        area: "Desenvolvimento",
+        tempo: "2h",
+    },
+       {
+        id: 2,
+        empresa:"Stark Industries",
+        cargo: "Desenvolvedor Back-end",
+        salario: "R$ 7.000,00 - R$ 10.000,00",
         modelo: "Hibrido",
-        area: "Engenharia",
-        publicada: "4h",
+        area: "Engenharia de Software",
+        tempo: "20h",
     },
-    {
-        id:2,
-        empresa: "star",
-        cargo: "Desenvolvedor back-end",
-        salario: "R$ 7.000,00",
-        modelo: "PJ",
-        area: "Engenharia",
-        publicada: "20h",
-    },
-    {
-        id:3,
-        empresa: "Skynet",
-        cargo: "exterminador",
-        salario: "R$ 10.000,00",
-        modelo: "futuro",
-        area: "assassino",
-        publicada: "4h",
+       {
+        id: 3,
+        empresa:"Sky net",
+        cargo: "Exterminador de humanos",
+        salario: "R$ 500.000,00 - R$ 1.000.000,00",
+        modelo: "hibrido",
+        area: "Desenvolvimento",
+        tempo: "24h",
     }
 ]
-export default Vagas
+
+export default vagalist

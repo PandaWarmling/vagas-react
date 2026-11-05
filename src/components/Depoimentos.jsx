@@ -1,6 +1,7 @@
-function Depoimentos(){
-    return(
-        <div className="depoimentos">
+function Depoimentos() {
+    return (
+
+ <div className="depoimentos">
             <div>
                 <p>Encontrei minha vaga atual scrollando num sábado.Aplicação em dois cliques</p>
                 <span>Lucas Vergara</span>
@@ -21,4 +22,5 @@ function Depoimentos(){
         </div>
     )
 }
+
 export default Depoimentos;
